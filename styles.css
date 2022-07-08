@@ -16,6 +16,9 @@ body {
 .logo-image {
   width: 42px;
 }
+.headder p:hover{
+  color: #0dbd8b;
+}
 .head-other {
   display: flex;
   gap: 37px;
@@ -29,6 +32,9 @@ body {
   margin-left: 62px;
   text-decoration: none;
   color: white;
+}
+.btn-green:hover{
+  background-color: #099970;
 }
 
 .main-body {
@@ -97,6 +103,9 @@ height: 344px;
 .green-lern-more{
   text-decoration: none;
   color: #0dbd8b;
+}
+.green-lern-more:hover{
+  text-decoration: underline;
 }
 
 .third-content{
@@ -169,7 +178,9 @@ padding: 19px;
   font-size: 36px;
   padding-right: 33px;
 }
-
+.btn-div > a:hover{
+  background-color: #d4d4d4;
+}
 .sixth-content{
   background-color: #f9fafb;
   display: grid; 
@@ -195,6 +206,9 @@ border-right: solid;
 line-height: 30px;
 padding-top: 6px;
 }
+.rate-btn-1:hover{
+  background-color: #e6ebf1;
+}
 .rate-btn-1 > span{
 font-size: 20px;
 }
@@ -203,6 +217,9 @@ font-size: 20px;
   background-color: #fff;
   color: #24292e;
   text-decoration: none;
+}
+.rate-btn-2:hover{
+  color: #0366d6;
 }
 .sixth-rating > div{
 text-align: left;
@@ -241,6 +258,9 @@ flex-direction: column;
   color: #1e1e1e;
   margin-top: 15px;
 }
+.footer-links:hover{
+  color: #0dbd8b;
+}
 
 .footer-type-2{
   display: flex;
@@ -257,6 +277,11 @@ flex-direction: column;
   background-color: transparent;
     padding-top: 36px;
   padding-left: 14px;
+  opacity: 0.6;
+}
+.footer-type-2 img:hover{
+  transform: translateY(-4px);
+  opacity: 1;
 }
 .footer-type-3{
   display: flex;
