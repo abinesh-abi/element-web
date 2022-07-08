@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  /* background-image: linear-gradient(0deg, #fff 25%, hsla(0, 0%, 100%, 0.7) 50%, hsla(0, 0%, 100%, 0.7)), linear-gradient(90deg, #a5f2e0, #d4f9f0 50%, #dfd1ff); */
+}
+
+.headder {
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+}
+.logo-image {
+  width: 42px;
+}
+.head-other {
+  display: flex;
+  gap: 37px;
+}
+.btn-green {
+  background-color: #0dbd8b;
+  width: 120px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px;
+  margin-left: 62px;
+  text-decoration: none;
+  color: white;
+}
+
+.main-body {
+padding-top: 106px;
+display: grid;
+grid-template-columns: auto;
+max-width: 1198px;
+margin-left: 325px;
+
+}
+
+
+.green-dot{
+    color: #0dbd8b;
+    font-size: 59px;
+}
+.first-content{
+  padding-left: 273px;
+  padding-top: 41px;
+
+}
+
+.headdig-type-1{
+  font-size: 45px;
+margin-left: 60px;
+margin-top: 53px;
+}
+
+
+.para-type-1{
+  font-size: 10px;
+  font-size: 23px;
+}
+
+.para-type-2{
+  font-weight: bold;
+}
+
+.para-dim{
+  color: #626262;
+}
+
+.second-content{
+  background-color: #f9fafb;
+  display: grid; 
+  grid-template-columns: auto auto;
+  margin-bottom: 45px;
+} 
+
+.first-coll{
+  width: auto;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.second-coll{
+  width: auto;
+}
+
+.images{
+width: auto;
+max-width: 297px;
+height: 344px;
+}
+
+
+.green-lern-more{
+  text-decoration: none;
+  color: #0dbd8b;
+}
+
+.third-content{
+  background-color: #f9fafb;
+  display: flex;
+  gap: 218px;
+  margin-bottom: 45px;
+}
+.third-content .first-coll{
+  padding-left: 121px;
+}
+
+.forth-content{
+  display: flex;
+  gap: 40px;
+}
+.forth-content div{
+  background-color: #f9fafb;
+    width: 589px;
+  height: 560px;
+  border-radius: 27px;
+  display: flex; 
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 45px;
+}
+.forth-content div img{
+width: 100%;
+}
+
+.fifth-content {
+  background-color: #000;
+  background-image: url('https://element.io/images/matrix-bg-right-01.svg'), url('https://element.io/images/Matrix-Contour-Lines.svg');
+  background-repeat: no-repeat;
+  background-position: 100%,0%;
+  display: flex;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 45px;
+  gap: 50px;
+  padding: 10px;
+}
+
+.fifth-content > div:nth-child(2){
+  width: auto;
+min-width: 563px;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+padding-bottom: 33px;
+}
+.btn-div{
+  display: flex;
+  gap: 50px;
+  text-align: center;
+}
+.btn-div > a:nth-child(1){
+ color: black;
+background-color: #fff;
+border-radius: 30px;
+text-decoration: none;
+width: 132px;
+padding: 19px; 
+}
+.btn-div > p:nth-child(2){
+  border: #fff;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 36px;
+  padding-right: 33px;
+}
+
+.sixth-content{
+  background-color: #f9fafb;
+  display: grid; 
+ grid-template-columns: 37% 50%;
+margin-bottom: 109px;
+gap: 152px;
+padding: 27px;
+
+}
+.sixth-rating{
+  display: grid;
+ grid-template-columns: 35% 41%;
+ 
+
+}
+.rate-btn-1{
+background-color: #eff3f6;
+text-decoration: none;
+color: black;
+border-right: solid; 
+ border-width: thin;
+ padding-bottom: 5px;
+line-height: 30px;
+padding-top: 6px;
+}
+.rate-btn-1 > span{
+font-size: 20px;
+}
+
+.rate-btn-2{
+  background-color: #fff;
+  color: #24292e;
+  text-decoration: none;
+}
+.sixth-rating > div{
+text-align: left;
+border: solid;
+border-width: thin;
+margin-bottom: 8px;
+border-radius: 4px;
+height: 32px;
+width: 118px;
+}
+.sixth-second > img{
+  width: 321px;
+position: relative;
+top: 16px;
+
+}
+
+.footer{
+padding-top: 106px;
+display: grid;
+grid-template-columns: auto;
+max-width: 1198px;
+margin-left: 325px;
+border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+.footer-type-1{
+  display: flex;
+  gap: 113px;
+}
+.footer-type-1 div{
+display: flex;
+flex-direction: column;
+}
+.footer-links{
+  text-decoration: none;
+  color: #1e1e1e;
+  margin-top: 15px;
+}
+
+.footer-type-2{
+  display: flex;
+}
+
+.footer-type-2 > div:nth-child(1){
+  flex: 70%;
+}
+.footer-type-2 > div:nth-child(2){
+  flex: 46%;
+}
+
+.footer-type-2 > div > img{
+  background-color: transparent;
+    padding-top: 36px;
+  padding-left: 14px;
+}
+.footer-type-3{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.footer-type-3 > div > .para-dim{
+text-align: end;
+}
+.footer-type-3 > div >img{
+  width: 58px;
+}
+.footer-type-3 > div > h3{
+  display: inline-block;
+}
